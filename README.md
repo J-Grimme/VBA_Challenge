@@ -73,6 +73,14 @@ data:
     Cells(4 + i, 3).Value = endingPrice / startingPrice - 1
     Next i
 
+![VBA_Challenge_2017](https://user-images.githubusercontent.com/98980993/161444834-7d50e47c-bc3d-44e5-9840-a7d3b8a03fb5.png)
+![2017_preformance](https://user-images.githubusercontent.com/98980993/161444857-0320e1f8-80bb-4dc5-a749-0e6a66998628.png)
+
+
+![VBA_Challenge_2018](https://user-images.githubusercontent.com/98980993/161444851-b1bcd831-c5d5-4d72-911d-dc0bdfca9636.png)
+![2018_performance](https://user-images.githubusercontent.com/98980993/161444873-a114de44-4ad6-4654-9c63-d344a8c8d240.png)
+
+
 Summary
 
 Advantages of Refactoring Code
