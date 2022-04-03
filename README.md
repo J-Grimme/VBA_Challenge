@@ -6,6 +6,8 @@ Overview of the Project
    For the Module 2 Challenge, we had to take the workbook that we completed for Steve and refactor the original code to make it run more efficiently so that 
 it can handle a larger amount of data at one time.  The original code was used to run an analysis for a few select stocks in the Stock Market to see which 
 stocks would be the best choice for Steve’s parents to invest in. 
+
+
 Results
    
    
@@ -15,7 +17,10 @@ data:
    
   
   
+  
   '1) Format the output sheet on All Stocks Analysis worksheet
+    
+    
     'Create a header row
   Worksheets("All Stocks Analysis").Activate
     Range("A1").Value = "All Stocks (2018)"
