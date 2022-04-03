@@ -3,11 +3,13 @@ VBA Challenge
 
 Overview of the Project
    
-   For the Module 2 Challenge, we had to take the workbook that we completed for Steve and refactor the original code to make it run more efficiently so that 
+            For the Module 2 Challenge, we had to take the workbook that we completed for Steve and refactor the original code to make it run more efficiently so that 
 it can handle a larger amount of data at one time.  The original code was used to run an analysis for a few select stocks in the Stock Market to see which 
 stocks would be the best choice for Steve’s parents to invest in. 
 Results
-    The 2017 stock market performed a lot better than the 2018 stocks which was made clear after refactoring the original code because the execution time 
+   
+   
+   The 2017 stock market performed a lot better than the 2018 stocks which was made clear after refactoring the original code because the execution time 
 for the edited code was reduced greatly. Below is my code that we were asked to refactor, the runtimes of the 2017 and 2018 VBA Macros and their performance 
 data: 
    
