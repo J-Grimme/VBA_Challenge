@@ -4,8 +4,8 @@ VBA Challenge
 Overview of the Project
    
    For the Module 2 Challenge, we had to take the workbook that we completed for Steve and refactor the original code to make it run more efficiently so that 
-it can handle a larger amount of data at one time.  The original code was used to run an analysis for a few select stocks in the Stock Market to see which 
-stocks would be the best choice for Steve’s parents to invest in. 
+ it can handle a larger amount of data at one time.  The original code was used to run an analysis for a few select stocks in the Stock Market to see which 
+ stocks would be the best choice for Steve’s parents to invest in. 
 
 
 Results
@@ -18,11 +18,9 @@ data:
   
   
   
-  '1) Format the output sheet on All Stocks Analysis worksheet
-    
-    
+    '1) Format the output sheet on All Stocks Analysis worksheet
     'Create a header row
-  Worksheets("All Stocks Analysis").Activate
+    Worksheets("All Stocks Analysis").Activate
     Range("A1").Value = "All Stocks (2018)"
     Cells(3, 1).Value = "Ticker"
     Cells(3, 2).Value = "Total Daily Volume"
@@ -52,7 +50,7 @@ data:
     For i = 0 To 11
         ticker = tickers(i)
         totalVolume = 0
- '5) loop through rows in the data
+    '5) loop through rows in the data
         Worksheets(yearValue).Activate
              For j = 2 To RowCount
         '5a) Get total volume for current ticker
@@ -67,7 +65,7 @@ data:
     If Cells(j + 1, 1).Value <> ticker And Cells(j, 1).Value = ticker Then
     	  endingPrice = Cells(j, 6).Value
      End If
-   Next i
+    Next i
      '6) Output data for current ticker
     Worksheets("All Stocks Analysis").Activate
     Cells(4 + i, 1).Value = ticker
